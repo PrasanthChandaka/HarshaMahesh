@@ -1,3 +1,16 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+ 
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }

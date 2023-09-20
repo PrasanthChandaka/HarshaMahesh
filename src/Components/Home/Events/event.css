@@ -1,0 +1,37 @@
+.events{
+    background-color:  #0077B6;
+    background-size: cover;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    padding: 20px;
+}
+.event-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.hr-line{
+    width: 85%;
+}
+.react-slider{
+    margin-top:20px ;
+    margin-bottom: 20px;
+    margin: 10px;
+}
+
+.carousal{
+    height:300px ;
+    width: 30%;
+  position: relative;
+    outline: none;
+}
+.img1{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+:hover.img1{
+    opacity: 0.5;
+}

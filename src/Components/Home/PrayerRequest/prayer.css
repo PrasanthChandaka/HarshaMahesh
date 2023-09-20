@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+.prayer-container{
+    padding-top: 30px;
+   padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+}
+.profile{
+    flex-grow: 1;
+   height: 100%;
+   background-size: cover;
+  
+}
+.profile-content{
+    flex-grow: 1;
+    background-size: cover;
+    padding: 10px;
+   
+}
+
+form{
+    flex-grow: 1;
+    background-size: cover;
+    padding: 10px;
+  
+}
+.profile-img{
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 50%;
+}
+input{
+    border-style: solid;
+    border-color: #0077B6;
+    border-width: 1px;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 8px;
+    margin-left: 0px;
+    border-radius: 3px;
+}
+textarea{
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+::placeholder{
+    color: gray;
+    font-weight: 600;
+}
+.submit{
+    background-color: #3FBEBC;
+    padding: 7px 35px 6.59px 35px;
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+    margin-top: 15px;
+}
+.content-head{
+    color: #0077B6;
+    font-family: Inter;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60.8px; /* 155.897% */
+    margin-bottom: 20px;
+}
+.content-profile-para{
+    color: #555;
+    font-family: Josefin Sans;
+    font-size: 17.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; /* 163.636% */
+}
+@media screen and (max-width:768px){
+    .prayer-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .profile{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-img{
+        border-radius: 0%;
+    }
+    .profile-content{
+        width: 100%;
+        text-align: center;
+    }
+    form{
+        width: 100%;
+    }
+}

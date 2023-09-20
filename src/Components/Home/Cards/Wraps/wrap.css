@@ -1,0 +1,19 @@
+.wrap-item{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color:white;
+    flex-grow: 1;
+    margin: 20px;
+}
+.wrap-para{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+@media screen and (max-width:768px) {
+   .wrap-item{
+    width: 100%;
+    margin-left: 0px;
+   }
+}

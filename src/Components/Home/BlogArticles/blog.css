@@ -1,0 +1,56 @@
+.blog-article{
+    background-color:#0077B6 ;
+    background-size: cover;
+    padding: 30px;
+}
+.blog-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hr-line{
+    width: 80%;
+}
+
+.main-blog{
+   background-size: cover;
+    padding: 20px;
+    width: 100%;
+    background-color: #0077B6;
+    font-family: "Josefin Sans";
+}
+
+.blog{
+    height: 100%;
+    background-color: white;
+}
+.blog-img{
+    height:160px;
+    width: 100%;
+}
+.blog-para{
+    min-height: 160px;
+    max-height: 300px;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 30px;
+}
+h2{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}

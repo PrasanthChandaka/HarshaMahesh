@@ -1,0 +1,127 @@
+.hover-container{
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   
+}
+.hover-me{
+    height:300px;
+    width: 30%;  
+    overflow: hidden;
+    flex-grow: 1;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.know-more-btn{
+    align-self: flex-end;
+    position: absolute;
+    top: 75%;
+    right: 20%;
+    background-color: #FAB20B;
+    color: white;
+    font-size: 12px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 15px;
+    width: 90px;
+    height: 30px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.item1{
+    background-image: url("https://imagekit.androidphoria.com/wp-content/uploads/5-mejores-apps-para-reconocer-canciones-Android.jpg");
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.item2{
+    background-image: url("https://media.istockphoto.com/id/1198931639/photo/writing-a-blog-blogger-influencer-reading-text-on-screen.jpg?b=1&s=612x612&w=0&k=20&c=_C4iNvLOzKbbfbeTMsJ4mQf8OGQwYWJ8GWKLKRglrF8=");
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item3{
+    background-image: url("https://newarrivalsholinessministries.org/wp-content/uploads/2016/05/The-Sermon.jpg");
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item4{
+    background-image: url("https://img.freepik.com/premium-photo/audio-book-concept-headphones-books-brown-background_446232-1094.jpg");
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item5{
+    background-image: url("https://i0.wp.com/mimokhairphotography.com/wp-content/uploads/2016/05/fellowship-of-the-hat-shanghai.jpg?resize=580%2C387&ssl=1");
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item6{
+    background-image: url("https://cdn2.hubspot.net/hubfs/53/Headphones-1.jpg");
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+:hover.item{
+    transform:scale(1.2);
+    .know-more-btn{
+        display: block;
+    }
+}
+.icon-container{
+    background-color: #0077B6;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    color: white;
+    font-size: 36px;
+}
+@media screen and (max-width:768px) {
+    .hover-container{
+        flex-direction: row;
+    }
+    .hover-me{
+        width: 100%;
+    }
+}

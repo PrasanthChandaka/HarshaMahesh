@@ -1,0 +1,32 @@
+.products{
+    background-size: cover;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    color:#0077B6;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.product-para{
+    color:#6D8A99;
+    font-weight: 600;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.swipe{
+    height: 400px;
+    padding: 13px;
+    outline: none;
+}
+.slide-image{
+    height: 100%;
+    width: 100%;
+   
+}
+.slide-para{
+    font-size: 16px;
+    font-family: "Josefin Sans";
+}

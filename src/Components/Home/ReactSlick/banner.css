@@ -1,0 +1,47 @@
+.slider-container{
+    height:60vh;
+    width: 100%;
+}
+
+.slide-img{
+    width: 100%;
+    height: 100%;
+}
+.dark-shadow{  
+    background-size: cover;
+    background: linear-gradient(180deg, #0E1920 0%, #0077B6 100%);
+    width: 100%;
+    position: relative;
+    top:30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    font-family: "Josefin Sans";
+    color: white;
+    text-align: center;
+    width: 70%;
+}
+.title{
+    font-family: 'Amsterdam-Four_ttf';
+    margin-bottom: 20px;
+  font-size: 48px;
+}
+.para1{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.para2{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.para3{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+@media screen and (max-width:768px) {
+   
+}
