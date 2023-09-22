@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/HarshaMahesh/static/css/main.b5f42dd3.css",
-    "main.js": "/HarshaMahesh/static/js/main.2ea4d69c.js",
+    "main.css": "/HarshaMahesh/static/css/main.a43ad762.css",
+    "main.js": "/HarshaMahesh/static/js/main.4b26ee10.js",
     "static/js/787.d3befce1.chunk.js": "/HarshaMahesh/static/js/787.d3befce1.chunk.js",
     "static/media/slick.svg": "/HarshaMahesh/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/HarshaMahesh/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/HarshaMahesh/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/HarshaMahesh/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/HarshaMahesh/index.html",
-    "main.b5f42dd3.css.map": "/HarshaMahesh/static/css/main.b5f42dd3.css.map",
-    "main.2ea4d69c.js.map": "/HarshaMahesh/static/js/main.2ea4d69c.js.map",
+    "main.a43ad762.css.map": "/HarshaMahesh/static/css/main.a43ad762.css.map",
+    "main.4b26ee10.js.map": "/HarshaMahesh/static/js/main.4b26ee10.js.map",
     "787.d3befce1.chunk.js.map": "/HarshaMahesh/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5f42dd3.css",
-    "static/js/main.2ea4d69c.js"
+    "static/css/main.a43ad762.css",
+    "static/js/main.4b26ee10.js"
   ]
 }
