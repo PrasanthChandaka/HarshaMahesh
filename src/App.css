@@ -2,13 +2,21 @@ body{
   margin: 0px;
   padding: 0px;
   scroll-behavior: smooth;
- 
+  background-attachment: fixed;
 }
 
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+.main-container{
+  width: 100%;
+  background-size: cover;
+  
+}
+button{
+  cursor: pointer;
 }
 
 .App {

@@ -17,14 +17,14 @@
     margin-top: 20px;
 }
 .swipe{
-    height: 400px;
+    height: 370px;
     padding: 13px;
     outline: none;
+   
 }
 .slide-image{
     height: 100%;
     width: 100%;
-   
 }
 .slide-para{
     font-size: 16px;

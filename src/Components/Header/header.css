@@ -4,7 +4,6 @@
     background:#000000;
     padding-left: 10px;
     padding-right: 10px;
-    height: 55px;
     width: 100%;  
     display: flex;
     justify-content: center;
@@ -15,7 +14,7 @@
 }
 .logo{
     height: 70px;
-    width: 80px;
+    width: 120px;
     padding: 10px;
 }
 .logo-container{
@@ -29,7 +28,22 @@
     cursor: pointer;
     margin-bottom: 0px;
 }
-
+.hover1{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.navigate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-icon{
+    color: white;
+    font-size: 18px;
+    padding-right:10px;
+}
 :hover.hover1{
     background-color: #3fbebc;
     .dropdown{
@@ -40,7 +54,7 @@
     position: absolute;
     background-color: #3fbebc;
     width: 150px;
-    top: 53px;   
+    top: 63px;   
     display: none;
 }
 
@@ -68,5 +82,72 @@
     display: flex;
    justify-content: flex-end;
    align-items: center;
-   
-}
+  }
+ 
+
+  .ham-container{
+        color: white;
+        width: 100%;
+        padding: 15px;
+        padding-bottom: 30px;
+        font-size: 18px;
+        display: none;
+        justify-content: center;
+        justify-content: space-between;
+        font-weight: bold;
+        border-style: solid;
+        border-width: 0px;
+        border-bottom-width: 1px;
+        border-color: white;
+  }
+  .ham-icon{
+    font-size: 24px;
+  }
+
+  @media screen and (max-width:768px) {
+    .header{
+        flex-direction: column;
+        align-items: flex-start;
+        max-height: 450px;
+        overflow: auto;
+        background-size: cover;
+        position: relative;
+    }
+    .logo-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .items-container{
+        display: table-column;
+        background-color: #000000;
+        position: relative;
+        width: 100%;
+    }
+    .display{
+        display: none;
+      }
+    .dropdown{
+        position: relative;
+        top: 0%;
+        width: 100%;
+    }
+   .nav-item{
+    border-style: solid;
+    border-color: white;
+    border-width: 0px;
+    border-bottom-width:1px;
+   }
+   .nav1{
+    border: none;
+   }
+   .navigate{
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-color: white;
+   }
+   .ham-container{
+        display: flex;
+   }
+  }

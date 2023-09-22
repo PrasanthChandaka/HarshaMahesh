@@ -1,6 +1,8 @@
 .slider-container{
-    height:60vh;
-    width: 100%;
+    height: 100vh;
+    width: 100%; 
+   background-size: cover;
+    overflow-x:scroll ;
 }
 
 .slide-img{
@@ -43,5 +45,7 @@
     font-size: 18px;
 }
 @media screen and (max-width:768px) {
-   
+   .slider-container{
+    height: 100vh;
+   }
 }
