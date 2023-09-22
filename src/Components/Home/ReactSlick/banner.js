@@ -3,6 +3,8 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import "./banner.css"
+import Header from "../Header/header"
+import Footer from "../Footer/footer";
 import Events from "../Events/event"
 import Events1 from "../Events1/event1.js"
 import Products from "../Products/product"
@@ -22,6 +24,7 @@ class ReactSlick extends Component{
             ltr: true
         }
         return <div className="slider-container">
+            <Header/>
             <Slider {...settings}>
                 <div className="slide1">
                   <img className="slide-img" src="https://sonsministries.in/wp-content/uploads/2020/08/banner-img-1.jpg" alt="slide1"/>  
@@ -67,6 +70,7 @@ class ReactSlick extends Component{
             <BlogArticles/>
             <PrayerRequest/>
             <Cards/>
+            <Footer/>
         </div>
         
     }

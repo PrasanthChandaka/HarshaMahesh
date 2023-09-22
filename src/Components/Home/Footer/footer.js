@@ -19,7 +19,7 @@ const Footer=()=>{
             </div>
             <div className="icon-with-para">
             <i class="fa-regular fa-envelope footer-icon"></i>
-                <p className="footer-card1-content">maheshgopalasetti123@gmail.com</p>   
+                <p className="footer-card1-content">mahesh@gmail.com</p>   
             </div>
        </div>
        <div className="footer-card">

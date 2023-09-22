@@ -22,10 +22,9 @@
 }
 
 .carousal{
-    height:300px ;
-    width: 30%;
-  position: relative;
+    height:55vh;
     outline: none;
+    background-size: contain;
 }
 .img1{
     height: 100%;

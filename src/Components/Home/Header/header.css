@@ -9,8 +9,9 @@
     justify-content: center;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+   position: fixed;
     z-index:1;
+    
 }
 .logo{
     height: 70px;
@@ -80,8 +81,11 @@
     width: 80%;
     height: 100%;
     display: flex;
-   justify-content: flex-end;
+   justify-content: flex-start;
    align-items: center;
+   flex-wrap: wrap;
+   flex-grow: 1;
+   padding-right: 0px;
   }
  
 
@@ -151,3 +155,5 @@
         display: flex;
    }
   }
+
+  /* prasanth chandaka */
